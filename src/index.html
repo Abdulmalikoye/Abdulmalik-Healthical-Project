@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <title>Healthical</title>
+  </head>
+  <body class="font-poppins">
+    <nav
+      class="flex justify-between items-center px-[50px] md:px-[150px] py-[20px]"
+    >
+      <div class="">
+        <img src="../img/Heathical logo.svg" alt="" />
+      </div>
+      <div class="hidden md:flex gap-5">
+        <a
+          href="http://127.0.0.1:5503/src/index.html"
+          class="text-primary text-[16px]"
+          >Home</a
+        >
+        <a href="#" class="text-primary text-[16px]">Service</a>
+        <a
+          href="http://127.0.0.1:5503/src/about.html"
+          class="text-primary text-[16px]"
+          >About us</a
+        >
+        <a
+          href="http://127.0.0.1:5503/src/career.html"
+          class="text-primary text-[16px]"
+          >Career</a
+        >
+      </div>
+      <div class="hidden md:flex gap-4">
+        <button
+          class="text-primary border border-primary text-[16px] w-[112px] h-[44px] rounded-md"
+        >
+          Sign up
+        </button>
+        <button
+          class="text-white bg-primary text-[16px] w-[112px] h-[44px] rounded-md"
+        >
+          Login
+        </button>
+      </div>
+      <ion-icon
+        name="menu-outline"
+        onclick="toggleMobileMenu()"
+        class="text-3xl block md:hidden cursor-pointer"
+      ></ion-icon>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div
+      id="mobileMenu"
+      class="md:hidden hidden flex-col gap-5 absolute top-[80px] left-0 bg-white w-full px-4 py-2"
+    >
+      <a
+        href="http://127.0.0.1:5503/src/index.html"
+        class="text-primary text-[16px]"
+        >Home</a
+      >
+      <a href="#" class="text-primary text-[16px]">Service</a>
+      <a
+        href="http://127.0.0.1:5503/src/about.html"
+        class="text-primary text-[16px]"
+        >About us</a
+      >
+      <a
+        href="http://127.0.0.1:5503/src/career.html"
+        class="text-primary text-[16px]"
+        >Career</a
+      >
+      <button
+        class="text-primary border border-primary text-[16px] w-[112px] h-[44px] rounded-md"
+      >
+        Sign up
+      </button>
+      <button
+        class="text-white bg-primary text-[16px] w-[112px] h-[44px] rounded-md"
+      >
+        Login
+      </button>
+    </div>
+    <section class="relative">
+      <div
+        class="px-[50px] md:px-0 bg-p-background h-[100vh] w-full bg-cover bg-no-repeat flex flex-col justify-center items-center gap-4 md:gap-10"
+      >
+        <h1 class="text-3xl md:text-6xl font-bold text-white text-center">
+          Your Health,
+          <span class="text-3xl md:text-6xl font-bold text-primary text-center"
+            >Our Priority</span
+          >
+        </h1>
+        <p
+          class="text-base md:text-2xl text-white font-normal text-center md:px-[150px]"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa,
+          gravida sollicitudin i amet. lorem dMorbi massa sed commodo neque
+          vulputate in sem. Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit ut aliquam, purus sit amet luctus venenatis, lectus magna
+          fringillav
+        </p>
+        <button
+          class="text-xs w-[103px] h-[34px] md:text-[27px] md:w-[215px] md:h-[73px] bg-primary text-white rounded-md"
+        >
+          Learn more
+        </button>
+      </div>
+      <img
+        src="../img/message.svg"
+        alt=""
+        class="fixed z-50 right-4 bottom-4 md:right-10 md:bottom-10"
+      />
+    </section>
+    <section class="px-[50px] md:px-[150px] py-[50px]">
+      <div class="flex flex-col items-center justify-center mb-10">
+        <h1 class="md:text-3xl text-xl mb-3 text-center">
+          Who is Healthical for?
+        </h1>
+
+        <div class="bg-primary h-1 w-[84px]"></div>
+      </div>
+      <div
+        class="flex flex-col md:flex-row gap-6 md:justify-between items-center"
+      >
+        <div class="md:w-[350px] shadow-xl">
+          <img src="../img/who-img1.svg" alt="" class="mb-6 md:w-[350px]" />
+          <div class="px-5 pb-5">
+            <h1 class="mb-4 text-primary font-normal text-xl md:text-2xl">
+              For individuals
+            </h1>
+            <p class="text-primary font-light md:text-base text-xs">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+            </p>
+          </div>
+        </div>
+        <div class="md:w-[350px] shadow-xl">
+          <img src="../img/Who-img2.svg" alt="" class="mb-6 md:w-[350px]" />
+          <div class="px-5 pb-5">
+            <h1 class="mb-4 text-primary font-normal text-xl md:text-2xl">
+              For individuals
+            </h1>
+            <p class="text-primary font-light md:text-base text-xs">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+            </p>
+          </div>
+        </div>
+        <div class="md:w-[350px] shadow-xl">
+          <img src="../img/Who-img3.svg" alt="" class="mb-6 md:w-[350px]" />
+          <div class="px-5 pb-5">
+            <h1 class="mb-4 text-primary font-normal text-xl md:text-2xl">
+              For individuals
+            </h1>
+            <p class="text-primary font-light md:text-base text-xs">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-primary px-6 py-20">
+      <div class="flex flex-col items-center justify-center mb-10">
+        <h1 class="md:text-3xl text-xl mb-3 text-center text-secondary">
+          Read What Our Users Say
+        </h1>
+
+        <div class="h-1 w-[84px] bg-secondary"></div>
+      </div>
+      <div class="flex items-center justify-center md:gap-6 gap-4">
+        <img
+          src="../img/Arr-left.svg"
+          alt=""
+          class="w-[12px] md:w-[22px] md:h-[40px] h-[22px] p-6 bg-[#5685BD] rounded-full text-white"
+        />
+        <div class="md:flex gap-14">
+          <div class="flex flex-col justify-center items-center gap-5">
+            <img src="../img/avatar1.svg" alt="" />
+            <p class="md:text-base text-xs text-center text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna
+              fringillaLorem ipsum dolor sit amet, consectetur adipiscing elit
+              ut aliquam, purus sit amet luctus venenatis, lectus magna
+              fringilla
+            </p>
+          </div>
+          <div
+            class="md:flex flex-col justify-center items-center gap-5 hidden"
+          >
+            <img src="../img/avatar2.svg" alt="" />
+            <p class="md:text-base text-xs text-center text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna
+              fringillaLorem ipsum dolor sit amet, consectetur adipiscing elit
+              ut aliquam, purus sit amet luctus venenatis, lectus magna
+              fringilla
+            </p>
+          </div>
+          <div
+            class="md:flex flex-col justify-center items-center gap-5 hidden"
+          >
+            <img src="../img/avatar3.svg" alt="" />
+            <p class="md:text-base text-xs text-center text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
+              aliquam, purus sit amet luctus venenatis, lectus magna
+              fringillaLorem ipsum dolor sit amet, consectetur adipiscing elit
+              ut aliquam, purus sit amet luctus venenatis, lectus magna
+              fringilla
+            </p>
+          </div>
+        </div>
+        <img
+          src="../img/arr-right.svg"
+          alt=""
+          class="w-[12px] md:w-[22px] md:h-[40px] h-[22px] p-6 bg-[#5685BD]"
+        />
+      </div>
+    </section>
+    <section class="px-[50px] md:px-[150px] py-[50px] bg-white">
+      <div class="flex flex-col items-center justify-center mb-10">
+        <h1 class="md:text-3xl text-xl mb-3 text-center text-primary">
+          Frequently Asked Questions
+        </h1>
+
+        <div class="h-1 w-[84px] bg-primary"></div>
+      </div>
+      <div
+        class="grid grid-cols-1 grid-rows-8 md:grid-cols-2 md:grid-rows-4 gap-5 md:gap-10"
+      >
+        <div class="bg-secondary rounded-xl p-6">
+          <div class="flex justify-between items-center">
+            <h1
+              class="md:text-xl text-[#001465] font-medium md:mb-6 mb-3 text-xs"
+            >
+              Can i register for my family?
+            </h1>
+            <div class="w-[23px] h-[2px] bg-[#001465]"></div>
+          </div>
+          <p class="md:text-base text-[#001465] text-[9px] leading-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringillaLorem ipsum
+            dolor sit amet,
+          </p>
+        </div>
+        <div class="bg-secondary rounded-xl p-6">
+          <div class="flex justify-between items-center">
+            <h1
+              class="md:text-xl text-[#001465] font-medium md:mb-6 mb-3 text-xs"
+            >
+              Can i register for my family?
+            </h1>
+            <div class="w-[23px] h-[2px] bg-[#001465]"></div>
+          </div>
+          <p class="md:text-base text-[#001465] text-[9px] leading-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringillaLorem ipsum
+            dolor sit amet,
+          </p>
+        </div>
+        <div class="bg-secondary rounded-xl p-6">
+          <div class="flex justify-between items-center">
+            <h1
+              class="md:text-xl text-[#001465] font-medium md:mb-6 mb-3 text-xs"
+            >
+              Can i register for my family?
+            </h1>
+            <div class="w-[23px] h-[2px] bg-[#001465]"></div>
+          </div>
+          <p class="md:text-base text-[#001465] text-[9px] leading-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringillaLorem ipsum
+            dolor sit amet,
+          </p>
+        </div>
+        <div class="bg-secondary rounded-xl p-6">
+          <div class="flex justify-between items-center">
+            <h1
+              class="md:text-xl text-[#001465] font-medium md:mb-6 mb-3 text-xs"
+            >
+              Can i register for my family?
+            </h1>
+            <div class="w-[23px] h-[2px] bg-[#001465]"></div>
+          </div>
+          <p class="md:text-base text-[#001465] text-[9px] leading-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringillaLorem ipsum
+            dolor sit amet,
+          </p>
+        </div>
+        <div class="bg-secondary rounded-xl p-6">
+          <div class="flex justify-between items-center">
+            <h1
+              class="md:text-xl text-[#001465] font-medium md:mb-6 mb-3 text-xs"
+            >
+              Can i register for my family?
+            </h1>
+            <div class="w-[23px] h-[2px] bg-[#001465]"></div>
+          </div>
+          <p class="md:text-base text-[#001465] text-[9px] leading-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringillaLorem ipsum
+            dolor sit amet,
+          </p>
+        </div>
+        <div class="bg-secondary rounded-xl p-6">
+          <div class="flex justify-between items-center">
+            <h1
+              class="md:text-xl text-[#001465] font-medium md:mb-6 mb-3 text-xs"
+            >
+              Can i register for my family?
+            </h1>
+            <div class="w-[23px] h-[2px] bg-[#001465]"></div>
+          </div>
+          <p class="md:text-base text-[#001465] text-[9px] leading-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringillaLorem ipsum
+            dolor sit amet,
+          </p>
+        </div>
+        <div class="bg-secondary rounded-xl p-6">
+          <div class="flex justify-between items-center">
+            <h1
+              class="md:text-xl text-[#001465] font-medium md:mb-6 mb-3 text-xs"
+            >
+              Can i register for my family?
+            </h1>
+            <div class="w-[23px] h-[2px] bg-[#001465]"></div>
+          </div>
+          <p class="md:text-base text-[#001465] text-[9px] leading-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringillaLorem ipsum
+            dolor sit amet,
+          </p>
+        </div>
+        <div class="bg-secondary rounded-xl p-6">
+          <div class="flex justify-between items-center">
+            <h1
+              class="md:text-xl text-[#001465] font-medium md:mb-6 mb-3 text-xs"
+            >
+              Can i register for my family?
+            </h1>
+            <div class="w-[23px] h-[2px] bg-[#001465]"></div>
+          </div>
+          <p class="md:text-base text-[#001465] text-[9px] leading-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+            purus sit amet luctus venenatis, lectus magna fringillaLorem ipsum
+            dolor sit amet,
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-primary px-[50px] md:px-[150px] py-[50px]">
+      <div
+        class="flex flex-col gap-14 md:gap-0 md:flex-row md:items-center md:justify-between"
+      >
+        <div class="text-white">
+          <h1 class="text-base font-bold mb-4 text-white">Company info</h1>
+          <ul class="flex flex-col gap-2">
+            <li>About us</li>
+            <li>Team</li>
+          </ul>
+        </div>
+        <div class="text-secondary">
+          <h1 class="text-base font-bold mb-4 text-white">Company info</h1>
+          <ul class="flex flex-col gap-2">
+            <li>About us</li>
+            <li>Team</li>
+          </ul>
+        </div>
+        <div class="text-secondary">
+          <h1 class="text-base font-bold mb-4 text-white">Company info</h1>
+          <ul class="flex flex-col gap-2">
+            <li>About us</li>
+            <li>Team</li>
+          </ul>
+        </div>
+        <div class="text-secondary">
+          <h1 class="text-base font-bold mb-4 text-white">Company info</h1>
+          <ul class="flex flex-col gap-2">
+            <li>About us</li>
+            <li>Team</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="mt-20 flex md:flex-row flex-col gap-2 md:justify-between items-center"
+      >
+        <h4 class="text-sm font-semibold text-white">
+          All Rights Reserved 2022
+        </h4>
+        <div class="flex gap-3">
+          <img src="../img/faceb.svg" alt="" />
+          <img src="../img/Instag.svg" alt="" />
+          <img src="../img/twii.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+    <script>
+      function toggleMobileMenu() {
+        const mobileMenu = document.getElementById("mobileMenu");
+        mobileMenu.classList.toggle("hidden");
+      }
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
